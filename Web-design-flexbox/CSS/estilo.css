@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/*mobile first*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px 0 5px;
+    background-color: black;
+}
+
+header nav{
+
+    display: none;
+}
+
+header i{
+    color: white;
+    font-size: 2rem;
+}
+header img{
+    height:50px;
+    margin-right: calc(50% - 44.15px);
+}
+
+#sessao-principal figure img{
+    width: 80%;
+}
+
+h1{
+    color: #FE3500;
+
+}
+
+a{
+        margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #FE3500;
+    height: 35px;
+    padding-top: 6px;
+}
